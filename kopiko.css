@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+nav{
+    color: #b7b7b7;
+    text-align: center;
+}
+nav h1{
+    color:  #b7b7b7;
+    font-size: 45;
+    font-weight: 500;
+    margin-top: 50px;
+    letter-spacing: 0.3rem;
+    transition: 0.5s all;
+}
+nav h1:hover{
+    color: brown;
+}
+nav hr{
+    height: 1px;
+ background-color: #353434;
+    width: 90%;
+    border: none;
+    margin-top: 40px;
+}
+nav h3{
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14;
+    letter-spacing: 0.3rem;
+    margin-top: -30px;
+}
+.nav2{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav2 h4{
+    margin-left: 30px;
+    color: #f8f4f4;
+    font-size: 14;
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    letter-spacing: 0.1rem;
+    transition: 0.5s all;
+}
+.nav2 h4:hover{
+    color: rgb(211, 37, 37);
+    cursor: pointer;
+}
+.section1{
+    text-align: center;
+    width: 100%;
+    height: 800px;
+}
+
+.banner{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.banner img{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 520px;
+}
+.section1 h1{
+    margin-top: 100px;
+    color:white;
+    font-size: 45;
+}
+.section1 h2{
+    margin-top: 20px;
+    color:white;
+    font-size: 30;
+}
+.section1 h3{
+    margin-left: 110px;
+    margin-right: 125px;
+    color: #888585;
+    font-size: 18;
+    font-weight: 400;
+    text-align: start;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+}
+.text1{
+    font-weight: 700;
+}
+.text2{
+    color: rgb(235, 42, 42);
+    text-decoration: underline;
+    transition: 0.5s all;
+}
+.text2:hover{
+    color: #888585;
+    text-decoration: none;
+
+}
+.section3 h3{
+    
+    margin-left: 110px;
+    margin-right: 125px;
+    color: #888585;
+    font-size: 18;
+    font-weight: 400;
+    text-align: start;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+}
+.section3{width: 100%;
+    height: 500px;
+}
+.section4{
+    height: 80px;
+    text-align: center;
+    color: #888585;
+    font-size: 15;
+}
+.section4 div{
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14;
+    
+}
+.text3{
+    color: white;
+    font-weight: 400;
+    transition: 0.5s all;
+}
+.text3:hover{
+color: brown;
+text-decoration: underline;
+
+}
+
+
+
+
+
+.img-slider {
+    position: relative;
+    width: 80vw;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.img-slider .slider-container {
+    margin-left: 250px;
+    position: absolute;
+    width: 200%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    animation: slider 15s infinite;
+}
+.img-slider .slider-container .slide {
+    
+    width: 14%;
+    height: 100%;
+    float: left;
+    overflow: hidden
+}
+.img-slider .slider-container .slide img {
+  width: 300px;
+  height: auto;
+}
+@keyframes slider {
+    0%, 25%, 100%{left: -12%}
+    
+    40%, 70%{left: -75%}
+}
+
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.drop-cont{
+    margin-top: 5px;
+    width: 200px;
+    height: 80px;
+    right: 0;
+    text-align: start;
+    display: none;
+    position: absolute;
+    color: aliceblue;
+    background-color: rgb(44, 41, 41);
+}
+.drop-cont p{
+    padding-left: 20px;
+}
+.dropdown:hover .drop-cont{
+    display: block;
+}
