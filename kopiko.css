@@ -134,7 +134,7 @@ nav h3{
     transition: 0.5s all;
 }
 .text3:hover{
-color: brown;
+color: rgb(175, 37, 37);
 text-decoration: underline;
 
 }
